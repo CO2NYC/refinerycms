@@ -37,6 +37,8 @@ module Refinery
       template "rails/application.js", "#{dummy_path}/app/assets/javascripts/application.js", :force => true
       template 'rails/blank.png', "#{dummy_path}/public/apple-touch-icon.png", :force => true
       template 'rails/blank.png', "#{dummy_path}/public/apple-touch-icon-precomposed.png", :force => true
+      template "rails/_backend.scss", "#{dummy_path}/app/assets/stylesheets/config/_backend.scss", :force => true
+      template "rails/_variables.scss", "#{dummy_path}/app/assets/stylesheets/config/_variables.scss", :force => true
     end
 
     def test_dummy_clean
