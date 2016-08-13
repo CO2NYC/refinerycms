@@ -305,14 +305,14 @@ p + .inline-module {
 }
 
 .no-scroll-sm-down {
-  @include media-breakpoint-down(sm) {
-    overflow: hidden !important;
-    height: 100%;
-    body {
-      overflow: hidden !important;
-      height: 100%;
-    }
-  }
+  //@include media-breakpoint-down(sm) {
+  //  overflow: hidden !important;
+  //  height: 100%;
+  //  body {
+  //    overflow: hidden !important;
+  //    height: 100%;
+  //  }
+  //}
 }
 
 .scrollable {

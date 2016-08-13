@@ -28,29 +28,29 @@
 }
 
 .sidebar.left {
-  @include media-breakpoint-down(xs) {
-    z-index: 1037;
-    width: 0;
-  }
+  //@include media-breakpoint-down(xs) {
+  //  z-index: 1037;
+  //  width: 0;
+  //}
   width: 45px;
   transition: .2s .3s ease-out;
   transform: translate3d(0%, 0%, 0);
   &:hover {
-    @include media-breakpoint-up(sm) {
-      width: 260px;
-      transition: .2s ease-out;
-    }
+    //@include media-breakpoint-up(sm) {
+    //  width: 260px;
+    //  transition: .2s ease-out;
+    //}
   }
   &.active {
-    @include media-breakpoint-down(xs) {
-      width: 100%;
-    }
+    //@include media-breakpoint-down(xs) {
+    //  width: 100%;
+    //}
   }
   .sidebar-top-nav {
     .site-name {
-      @include media-breakpoint-down(xs) {
-        width: 100%;
-      }
+      //@include media-breakpoint-down(xs) {
+      //  width: 100%;
+      //}
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -83,9 +83,9 @@
     }
   }
   .log-out {
-    @include media-breakpoint-down(xs) {
-      width: 100%;
-    }
+    //@include media-breakpoint-down(xs) {
+    //  width: 100%;
+    //}
     position: fixed;
     right: 0;
     bottom: 0;
